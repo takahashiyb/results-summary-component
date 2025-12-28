@@ -43,9 +43,6 @@
   }
 
   .color-box {
-    --colorbox-color: transparent;
-
-    background-color: var(--colorbox-color);
     height: 125px;
     width: 100%;
     border: solid black 1px;
@@ -72,3 +69,4 @@
     text-transform: uppercase;
   }
 </style>
+
