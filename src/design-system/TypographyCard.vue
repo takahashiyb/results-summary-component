@@ -30,18 +30,20 @@
     gap: 12px;
   }
 
-  h2,
-  h3 {
+  h2 {
     text-transform: capitalize;
+    padding-top: 72px;
   }
 
-  h2 {
-    padding-top: 72px;
+  p {
+    font: var(--font-preset-6-m);
   }
 
   span {
     display: inline-block;
     text-transform: uppercase;
     color: slategray;
+
+    padding-right: 1em;
   }
 </style>

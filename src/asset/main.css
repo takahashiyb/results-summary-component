@@ -66,6 +66,7 @@ select {
 
 html {
   font-family: var(--font-family), sans-serif;
+  color: hsl(var(--navy-950-color));
 }
 
 /* ------------------- */

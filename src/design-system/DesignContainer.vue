@@ -35,13 +35,19 @@
 </script>
 
 <template>
-  <h1>{{ title }}</h1>
-  <ColorCard v-if="isColor" :groups="groups"></ColorCard>
-  <GradientCard v-if="isGradient" :groups="groups"></GradientCard>
-  <TypographyCard v-if="isTypography" :groups="groups"></TypographyCard>
+  <div>
+    <h1>{{ title }}</h1>
+    <ColorCard v-if="isColor" :groups="groups"></ColorCard>
+    <GradientCard v-if="isGradient" :groups="groups"></GradientCard>
+    <TypographyCard v-if="isTypography" :groups="groups"></TypographyCard>
+  </div>
 </template>
 
 <style scoped>
+  div {
+    padding-inline: 10em;
+  }
+
   h1 {
     text-transform: capitalize;
     padding-top: 72px;
