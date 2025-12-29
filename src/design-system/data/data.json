@@ -249,5 +249,8 @@
       { "name": "spacing-400", "pixels": "32px", "variable": "--spacing-0400" },
       { "name": "spacing-1000", "pixels": "80px", "variable": "--spacing-1000" }
     ]
-  }
+  },
+  { "category": "Score Card Component" },
+  { "category": "Score Component" },
+  { "category": "Button Component" }
 ]
