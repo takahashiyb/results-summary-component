@@ -14,7 +14,7 @@
     <div
       class="gradient-box"
       :style="{
-        background: `linear-gradient(to bottom, rgb(${item.colors['color 1'].rgb}), rgb(${item.colors['color 2'].rgb}))`,
+        background: `linear-gradient(to bottom, var(${item.variable}))`,
       }"
     ></div>
     <h2>{{ item.group }}</h2>
