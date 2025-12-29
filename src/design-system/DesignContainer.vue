@@ -9,6 +9,7 @@
   import SpacingCard from '@/design-system/SpacingCard.vue';
   import ScoreCard from '@/components/ScoreCard.vue';
   import SingleScore from '@/components/SingleScore.vue';
+  import Button from '@/components/Button.vue';
 
   const props = defineProps({
     object: Object,
@@ -44,6 +45,10 @@
     return title.value.toLowerCase() === 'score component';
   }
 
+  function checkButton() {
+    return title.value.toLowerCase() === 'button component';
+  }
+
   const groups = reactive(colorGroup.groups);
 </script>
 
@@ -62,6 +67,7 @@
       v-else-if="checkSingleScore()"
       :data="sampleData"
     ></SingleScore>
+    <Button v-else-if="checkButton()"></Button>
   </div>
 </template>
 
