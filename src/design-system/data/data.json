@@ -9,13 +9,15 @@
             "name": "white",
             "hex": "#FFFFFF",
             "rgb": "255, 255, 255",
-            "hsl": "0°, 100%, 100%"
+            "hsl": "0°, 100%, 100%",
+            "variable": "--white-color"
           },
           {
             "name": "black",
             "hex": "#000000",
             "rgb": "0, 0, 0",
-            "hsl": "0°, 0%, 0%"
+            "hsl": "0°, 0%, 0%",
+            "variable": "--black-color"
           }
         ]
       },
@@ -26,19 +28,22 @@
             "name": "Navy 950",
             "hex": "#303B59",
             "rgb": "48, 59, 89",
-            "hsl": "224°, 30%, 27%"
+            "hsl": "224°, 30%, 27%",
+            "variable": "--navy-950-color"
           },
           {
             "name": "Navy 200",
             "hex": "#CAC9FF",
             "rgb": "202, 201, 255",
-            "hsl": "241°, 100%, 89%"
+            "hsl": "241°, 100%, 89%",
+            "variable": "--navy-200-color"
           },
           {
             "name": "Navy 50",
             "hex": "#ECF2FF",
             "rgb": "236, 242, 255",
-            "hsl": "221°, 100%, 96%"
+            "hsl": "221°, 100%, 96%",
+            "variable": "--navy-050-color"
           }
         ]
       },
@@ -49,13 +54,15 @@
             "name": "Blue 800",
             "hex": "#1125D6",
             "rgb": "17, 37, 214",
-            "hsl": "234°, 85%, 45%"
+            "hsl": "234°, 85%, 45%",
+            "variable": "--blue-800-color"
           },
           {
             "name": "Blue 50",
             "hex": "#F3F4FD",
             "rgb": "243, 244, 253",
-            "hsl": "234°, 71%, 97%"
+            "hsl": "234°, 71%, 97%",
+            "variable": "--blue-050-color"
           }
         ]
       },
@@ -66,13 +73,15 @@
             "name": "Yellow 400",
             "hex": "#FFB21E",
             "rgb": "255, 178, 30",
-            "hsl": "39°, 100%, 56%"
+            "hsl": "39°, 100%, 56%",
+            "variable": "--yellow-800-color"
           },
           {
             "name": "Yellow 50",
             "hex": "#FFFBF4",
             "rgb": "255, 251, 244",
-            "hsl": "38°, 100%, 98%"
+            "hsl": "38°, 100%, 98%",
+            "variable": "--yellow-050-color"
           }
         ]
       },
@@ -83,13 +92,15 @@
             "name": "Red 400",
             "hex": "#FF5555",
             "rgb": "255, 85, 85",
-            "hsl": "0°, 100%, 67%"
+            "hsl": "0°, 100%, 67%",
+            "variable": "--red-400-color"
           },
           {
             "name": "Red 50",
             "hex": "#FFF6F6",
             "rgb": "255, 246, 246",
-            "hsl": "0°, 100%, 98%"
+            "hsl": "0°, 100%, 98%",
+            "variable": "--red-050-color"
           }
         ]
       },
@@ -100,13 +111,15 @@
             "name": "Green 500",
             "hex": "#00BB8F",
             "rgb": "0, 187, 143",
-            "hsl": "166°, 100%, 37%"
+            "hsl": "166°, 100%, 37%",
+            "variable": "--green-500-color"
           },
           {
             "name": "Green 50",
             "hex": "#F2FCF9",
             "rgb": "242, 252, 249",
-            "hsl": "162°, 63%, 97%"
+            "hsl": "162°, 63%, 97%",
+            "variable": "--green-050-color"
           }
         ]
       }
