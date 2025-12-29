@@ -16,7 +16,7 @@
       <li v-for="color in item.list">
         <div
           class="color-box"
-          :style="{ backgroundColor: `rgb(${color.rgb})` }"
+          :style="{ backgroundColor: `hsl(var(${color.variable}))` }"
         ></div>
         <div class="text-content">
           <h3>{{ color.name }}</h3>
