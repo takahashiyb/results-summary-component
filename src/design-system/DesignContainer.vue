@@ -13,22 +13,20 @@
 
   const title = ref(colorGroup.category);
 
-  const isColor = checkColor();
-
   function checkColor() {
     return title.value.toLowerCase() === 'colors';
   }
-
-  const isGradient = checkGradient();
 
   function checkGradient() {
     return title.value.toLowerCase() === 'gradients';
   }
 
-  const isTypography = checkTypography();
-
   function checkTypography() {
     return title.value.toLowerCase() === 'typography';
+  }
+
+  function checkSpacing() {
+    return title.value.toLowerCase() === 'spacing';
   }
 
   const groups = reactive(colorGroup.groups);
@@ -37,9 +35,16 @@
 <template>
   <div>
     <h1>{{ title }}</h1>
-    <ColorCard v-if="isColor" :groups="groups"></ColorCard>
-    <GradientCard v-if="isGradient" :groups="groups"></GradientCard>
-    <TypographyCard v-if="isTypography" :groups="groups"></TypographyCard>
+    <ColorCard v-if="checkColor()" :groups="groups"></ColorCard>
+    <GradientCard v-else-if="checkGradient()" :groups="groups"></GradientCard>
+    <TypographyCard
+      v-else-if="checkTypography()"
+      :groups="groups"
+    ></TypographyCard>
+    <TypographyCard
+      v-else-if="checkSpacing()"
+      :groups="groups"
+    ></TypographyCard>
   </div>
 </template>
 
