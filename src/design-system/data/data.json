@@ -238,5 +238,16 @@
         "variable": "--font-preset-6-m"
       }
     ]
+  },
+  {
+    "category": "Spacing",
+    "groups": [
+      { "name": "spacing-0", "pixels": "0px", "variable": "--spacing-0000" },
+      { "name": "spacing-100", "pixels": "8px", "variable": "--spacing-0100" },
+      { "name": "spacing-200", "pixels": "16px", "variable": "--spacing-0200" },
+      { "name": "spacing-300", "pixels": "24px", "variable": "--spacing-0300" },
+      { "name": "spacing-400", "pixels": "32px", "variable": "--spacing-0400" },
+      { "name": "spacing-1000", "pixels": "80px", "variable": "--spacing-1000" }
+    ]
   }
 ]
