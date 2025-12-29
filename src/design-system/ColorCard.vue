@@ -1,12 +1,11 @@
 <script setup>
-import { ref } from "vue";
-import data from "@/design-system/data/data.json";
+  import { ref } from 'vue';
 
-const props = defineProps({
-  groups: Object,
-});
+  const props = defineProps({
+    groups: Object,
+  });
 
-const items = ref(props.groups);
+  const items = ref(props.groups);
 </script>
 
 <template>
@@ -31,42 +30,43 @@ const items = ref(props.groups);
 </template>
 
 <style scoped>
-.color-group {
-  padding: 0;
+  .color-group {
+    padding: 0;
 
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 
-  list-style-type: none;
-  list-style-position: inside;
-  gap: 32px;
-}
+    list-style-type: none;
+    list-style-position: inside;
+    gap: 32px;
+  }
 
-.color-box {
-  height: 125px;
-  width: 100%;
-  border: solid black 1px;
-  border-radius: 10px;
-}
+  .color-box {
+    height: 125px;
+    width: 100%;
+    border: solid black 1px;
+    border-radius: 10px;
+  }
 
-.text-content {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
+  .text-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
 
-h2,
-h3 {
-  text-transform: capitalize;
-}
+  h2,
+  h3 {
+    text-transform: capitalize;
+  }
 
-h2 {
-  padding-top: 72px;
-}
+  h2 {
+    padding-top: 72px;
+  }
 
-span {
-  display: inline-block;
-  width: 77px;
-  text-transform: uppercase;
-}
+  span {
+    display: inline-block;
+    width: 77px;
+    text-transform: uppercase;
+    color: slategray;
+  }
 </style>
