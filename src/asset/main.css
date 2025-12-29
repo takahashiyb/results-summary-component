@@ -106,4 +106,20 @@ html {
     var(--font-size-16)/var(--line-height-130) var(--font-family);
   --font-preset-6-m: var(--font-weight-m)
     var(--font-size-16)/var(--line-height-130) var(--font-family);
+
+  /* Colors */
+
+  --white-color: 0deg, 100%, 100%;
+  --black-color: 0deg, 0%, 0%;
+  --navy-950-color: 224deg, 30%, 27%;
+  --navy-200-color: 241deg, 100%, 89%;
+  --navy-050-color: 221deg, 100%, 96%;
+  --blue-800-color: 234deg, 85%, 45%;
+  --blue-050-color: 234deg, 71%, 97%;
+  --yellow-800-color: 39deg, 100%, 56%;
+  --yellow-050-color: 38deg, 100%, 98%;
+  --red-400-color: 0deg, 100%, 67%;
+  --red-050-color: 0deg, 100%, 98%;
+  --green-500-color: 166deg, 100%, 37%;
+  --green-050-color: 162deg, 63%, 97%;
 }
