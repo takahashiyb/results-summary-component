@@ -127,4 +127,12 @@ html {
   /* Gradients */
   --gradient-1: hsl(256deg, 71%, 46%), hsl(241deg, 72%, 46%);
   --gradient-2: hsl(252deg, 100%, 67%), hsl(241deg, 81%, 54%);
+
+  /* Spacing */
+  --spacing-0000: 0;
+  --spacing-0100: 0.5em;
+  --spacing-0200: 1em;
+  --spacing-0300: 1.5em;
+  --spacing-0400: 2em;
+  --spacing-1000: 5em;
 }
