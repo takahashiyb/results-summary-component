@@ -15,7 +15,6 @@
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-
 ## Overview
 
 ### The challenge
