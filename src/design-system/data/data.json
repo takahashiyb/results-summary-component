@@ -146,5 +146,74 @@
         }
       }
     ]
+  },
+  {
+    "category": "Typography",
+    "groups": [
+      {
+        "name": "Text Preset 1",
+        "font-family": "Hanken Grotesk ExtraBold",
+        "font-size": "72px",
+        "line-height": "100%",
+        "letter-spacing": "0px",
+        "sample-length": 8
+      },
+      {
+        "name": "Text Preset 2",
+        "font-family": "Hanken Grotesk ExtraBold",
+        "font-size": "56px",
+        "line-height": "100%",
+        "letter-spacing": "0px",
+        "sample-length": 12
+      },
+      {
+        "name": "Text Preset 3",
+        "font-family": "Hanken Grotesk Bold",
+        "font-size": "32px",
+        "line-height": "130%",
+        "letter-spacing": "0px",
+        "sample-length": 36
+      },
+      {
+        "name": "Text Preset 4",
+        "font-family": "Hanken Grotesk Bold",
+        "font-size": "24px",
+        "line-height": "130%",
+        "letter-spacing": "0px",
+        "sample-length": 36
+      },
+      {
+        "name": "Text Preset 5 (Bold)",
+        "font-family": "Hanken Grotesk Bold",
+        "font-size": "18px",
+        "line-height": "130%",
+        "letter-spacing": "0px",
+        "sample-length": 69
+      },
+      {
+        "name": "Text Preset 5 (Medium)",
+        "font-family": "Hanken Grotesk Medium",
+        "font-size": "18px",
+        "line-height": "130%",
+        "letter-spacing": "0px",
+        "sample-length": 69
+      },
+      {
+        "name": "Text Preset 6 (Bold)",
+        "font-family": "Hanken Grotesk Bold",
+        "font-size": "16px",
+        "line-height": "130%",
+        "letter-spacing": "0px",
+        "sample-length": 69
+      },
+      {
+        "name": "Text Preset 6 (Medium)",
+        "font-family": "Hanken Grotesk Medium",
+        "font-size": "16px",
+        "line-height": "130%",
+        "letter-spacing": "0px",
+        "sample-length": 69
+      }
+    ]
   }
 ]
