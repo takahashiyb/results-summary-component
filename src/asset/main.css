@@ -54,3 +54,56 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+/* ------------------- */
+/* Font                */
+/* ------------------- */
+
+@font-face {
+  font-family: Hanken Grotesk;
+  src: url('../../assets/fonts/HankenGrotesk-VariableFont_wght.ttf');
+}
+
+html {
+  font-family: var(--font-family), sans-serif;
+}
+
+/* ------------------- */
+/* Variables           */
+/* ------------------- */
+
+:root {
+  /* Typography */
+  --font-family: 'Hanken Grotesk';
+
+  --font-weight-eb: 800;
+  --font-weight-b: 700;
+  --font-weight-m: 500;
+
+  --font-size-72: 4.5rem;
+  --font-size-56: 3.5rem;
+  --font-size-32: 2rem;
+  --font-size-24: 1.5rem;
+  --font-size-18: 1.125rem;
+  --font-size-16: 1rem;
+
+  --line-height-100: 1;
+  --line-height-130: 1.3;
+
+  --font-preset-1: var(--font-weight-eb)
+    var(--font-size-72)/var(--line-height-100) var(--font-family);
+  --font-preset-2: var(--font-weight-eb)
+    var(--font-size-56)/var(--line-height-100) var(--font-family);
+  --font-preset-3: var(--font-weight-b)
+    var(--font-size-32)/var(--line-height-130) var(--font-family);
+  --font-preset-4: var(--font-weight-b)
+    var(--font-size-24)/var(--line-height-130) var(--font-family);
+  --font-preset-5-b: var(--font-weight-b)
+    var(--font-size-18)/var(--line-height-130) var(--font-family);
+  --font-preset-5-m: var(--font-weight-m)
+    var(--font-size-18)/var(--line-height-130) var(--font-family);
+  --font-preset-6-b: var(--font-weight-b)
+    var(--font-size-16)/var(--line-height-130) var(--font-family);
+  --font-preset-6-m: var(--font-weight-m)
+    var(--font-size-16)/var(--line-height-130) var(--font-family);
+}
