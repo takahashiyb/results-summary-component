@@ -156,7 +156,8 @@
         "font-size": "72px",
         "line-height": "100%",
         "letter-spacing": "0px",
-        "sample-length": 8
+        "sample-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "variable": "--font-preset-1"
       },
       {
         "name": "Text Preset 2",
@@ -164,7 +165,8 @@
         "font-size": "56px",
         "line-height": "100%",
         "letter-spacing": "0px",
-        "sample-length": 12
+        "sample-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+        "variable": "--font-preset-2"
       },
       {
         "name": "Text Preset 3",
@@ -172,7 +174,8 @@
         "font-size": "32px",
         "line-height": "130%",
         "letter-spacing": "0px",
-        "sample-length": 36
+        "sample-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat.",
+        "variable": "--font-preset-3"
       },
       {
         "name": "Text Preset 4",
@@ -180,7 +183,8 @@
         "font-size": "24px",
         "line-height": "130%",
         "letter-spacing": "0px",
-        "sample-length": 36
+        "sample-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat.",
+        "variable": "--font-preset-4"
       },
       {
         "name": "Text Preset 5 (Bold)",
@@ -188,7 +192,8 @@
         "font-size": "18px",
         "line-height": "130%",
         "letter-spacing": "0px",
-        "sample-length": 69
+        "sample-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat. Duis aute irure dolor in reprehenderit in voluptate  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint  occaecat cupidatat non proident, sunt in culpa qui officia deserunt  mollit anim id est laborum.",
+        "variable": "--font-preset-5-b"
       },
       {
         "name": "Text Preset 5 (Medium)",
@@ -196,7 +201,8 @@
         "font-size": "18px",
         "line-height": "130%",
         "letter-spacing": "0px",
-        "sample-length": 69
+        "sample-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat. Duis aute irure dolor in reprehenderit in voluptate  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint  occaecat cupidatat non proident, sunt in culpa qui officia deserunt  mollit anim id est laborum.",
+        "variable": "--font-preset-5-m"
       },
       {
         "name": "Text Preset 6 (Bold)",
@@ -204,7 +210,8 @@
         "font-size": "16px",
         "line-height": "130%",
         "letter-spacing": "0px",
-        "sample-length": 69
+        "sample-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat. Duis aute irure dolor in reprehenderit in voluptate  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint  occaecat cupidatat non proident, sunt in culpa qui officia deserunt  mollit anim id est laborum.",
+        "variable": "--font-preset-6-b"
       },
       {
         "name": "Text Preset 6 (Medium)",
@@ -212,7 +219,8 @@
         "font-size": "16px",
         "line-height": "130%",
         "letter-spacing": "0px",
-        "sample-length": 69
+        "sample-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat. Duis aute irure dolor in reprehenderit in voluptate  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint  occaecat cupidatat non proident, sunt in culpa qui officia deserunt  mollit anim id est laborum.",
+        "variable": "--font-preset-6-m"
       }
     ]
   }
