@@ -122,4 +122,8 @@ html {
   --red-050-color: 0deg, 100%, 98%;
   --green-500-color: 166deg, 100%, 37%;
   --green-050-color: 162deg, 63%, 97%;
+
+  /* Gradients */
+  --gradient-1: hsl(256deg, 71%, 46%), hsl(241deg, 72%, 46%);
+  --gradient-2: hsl(252deg, 100%, 67%), hsl(241deg, 81%, 54%);
 }
