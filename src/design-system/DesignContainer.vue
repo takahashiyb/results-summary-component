@@ -4,6 +4,7 @@
   import ColorCard from '@/design-system/ColorCard.vue';
   import GradientCard from './GradientCard.vue';
   import TypographyCard from './TypographyCard.vue';
+  import SpacingCard from './SpacingCard.vue';
 
   const props = defineProps({
     object: Object,
@@ -41,10 +42,7 @@
       v-else-if="checkTypography()"
       :groups="groups"
     ></TypographyCard>
-    <TypographyCard
-      v-else-if="checkSpacing()"
-      :groups="groups"
-    ></TypographyCard>
+    <SpacingCard v-else-if="checkSpacing()" :groups="groups"></SpacingCard>
   </div>
 </template>
 

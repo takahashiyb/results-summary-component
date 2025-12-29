@@ -1,5 +1,5 @@
 <script setup>
-  import { ref, reactive } from 'vue';
+  import { reactive } from 'vue';
 
   const props = defineProps({
     groups: Object,
@@ -9,19 +9,32 @@
 </script>
 
 <template>
-  <div v-for="item in items" :key="item.name">
-    <h2>
-      <span>{{ item.name }}</span
-      >{{ item['font-family'] }}
-    </h2>
-    <div class="text-content">
-      <p>{{ item['font-size'] }}</p>
-      <p>{{ item['line-height'] }}</p>
-      <p>{{ item['letter-spacing'] }}</p>
-    </div>
-    <hr />
-    <p :style="{ font: `var(${item.variable})` }">{{ item['sample-text'] }}</p>
-  </div>
+  <table>
+    <colgroup>
+      <col class="th__name" />
+      <col class="th__pixels" />
+      <col class="th__display" />
+    </colgroup>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Pixels</th>
+        <th>Spacing</th>
+      </tr>
+    </thead>
+    <tbody v-for="item in items" :key="item.name">
+      <tr>
+        <td>{{ item.name }}</td>
+        <td>{{ item.pixels }}</td>
+        <td>
+          <div
+            class="spacing-display"
+            :style="{ width: `var(${item.variable})` }"
+          ></div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </template>
 
 <style scoped>
@@ -30,9 +43,28 @@
     gap: 12px;
   }
 
-  h2 {
-    text-transform: capitalize;
+  .spacing-display {
+    height: 42px;
+    background-color: hsl(var(--navy-050-color));
+  }
+
+  table {
+    width: 100%;
+
     padding-top: 72px;
+  }
+
+  .th__name {
+    width: 50%;
+  }
+
+  .th__pixels,
+  .th__display {
+    width: 25%;
+  }
+
+  th {
+    text-align: start;
   }
 
   p {
