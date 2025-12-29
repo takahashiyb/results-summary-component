@@ -50,8 +50,6 @@
 
   table {
     width: 100%;
-
-    padding-top: 72px;
   }
 
   .th__name {
