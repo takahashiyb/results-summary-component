@@ -5,6 +5,7 @@
   import GradientCard from './GradientCard.vue';
   import TypographyCard from './TypographyCard.vue';
   import SpacingCard from './SpacingCard.vue';
+  import ScoreCard from '@/components/ScoreCard.vue';
 
   const props = defineProps({
     object: Object,
@@ -30,6 +31,10 @@
     return title.value.toLowerCase() === 'spacing';
   }
 
+  function checkScoreCard() {
+    return title.value.toLowerCase() === 'score card component';
+  }
+
   const groups = reactive(colorGroup.groups);
 </script>
 
@@ -43,6 +48,7 @@
       :groups="groups"
     ></TypographyCard>
     <SpacingCard v-else-if="checkSpacing()" :groups="groups"></SpacingCard>
+    <ScoreCard v-else-if="checkScoreCard()"></ScoreCard>
   </div>
 </template>
 
