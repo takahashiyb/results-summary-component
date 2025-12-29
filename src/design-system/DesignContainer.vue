@@ -1,11 +1,14 @@
 <script setup>
   import { ref, reactive, defineProps } from 'vue';
 
+  import dataScore from '../../data/data.json';
+
   import ColorCard from '@/design-system/ColorCard.vue';
-  import GradientCard from './GradientCard.vue';
-  import TypographyCard from './TypographyCard.vue';
-  import SpacingCard from './SpacingCard.vue';
+  import GradientCard from '@/design-system/GradientCard.vue';
+  import TypographyCard from '@/design-system/TypographyCard.vue';
+  import SpacingCard from '@/design-system/SpacingCard.vue';
   import ScoreCard from '@/components/ScoreCard.vue';
+  import SingleScore from '@/components/SingleScore.vue';
 
   const props = defineProps({
     object: Object,
@@ -14,6 +17,8 @@
   const colorGroup = reactive(props.object);
 
   const title = ref(colorGroup.category);
+
+  const sampleData = dataScore.find((item) => item.category === 'Reaction');
 
   function checkColor() {
     return title.value.toLowerCase() === 'colors';
@@ -35,6 +40,10 @@
     return title.value.toLowerCase() === 'score card component';
   }
 
+  function checkSingleScore() {
+    return title.value.toLowerCase() === 'score component';
+  }
+
   const groups = reactive(colorGroup.groups);
 </script>
 
@@ -49,6 +58,10 @@
     ></TypographyCard>
     <SpacingCard v-else-if="checkSpacing()" :groups="groups"></SpacingCard>
     <ScoreCard v-else-if="checkScoreCard()"></ScoreCard>
+    <SingleScore
+      v-else-if="checkSingleScore()"
+      :data="sampleData"
+    ></SingleScore>
   </div>
 </template>
 
