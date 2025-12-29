@@ -1,5 +1,5 @@
 <script setup>
-  import { reactive } from 'vue';
+  import { ref, reactive } from 'vue';
 
   const props = defineProps({
     groups: Object,
