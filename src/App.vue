@@ -1,5 +1,5 @@
 <script setup>
-  import DesignSystem from '@/design-system/DesignSystem.vue';
+  // import DesignSystem from '@/design-system/DesignSystem.vue';
   import Button from './components/Button.vue';
   import ScoreCard from './components/ScoreCard.vue';
   import SingleScore from './components/SingleScore.vue';
@@ -36,6 +36,12 @@
     max-width: 736px;
 
     margin-inline: auto;
+
+    border-radius: 32px;
+
+    box-shadow: 20px 20px 15px hsl(var(--blue-050-color));
+
+    padding-bottom: var(--spacing-0400);
   }
 
   p {
@@ -57,6 +63,8 @@
     .grid {
       grid-template-columns: 1fr 1fr;
       grid-template-rows: min-content 1fr;
+
+      padding-bottom: 0;
     }
 
     .container__score-card {
