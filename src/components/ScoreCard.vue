@@ -1,7 +1,4 @@
-<script setup>
-
-  
-</script>
+<script setup></script>
 
 <template>
   <section>
@@ -25,13 +22,11 @@
     flex-direction: column;
     gap: var(--spacing-0400);
 
-    max-width: 368px;
-
     place-items: center;
     background: linear-gradient(var(--gradient-2));
     text-align: center;
-    padding: 5em 4em;
-    border-radius: 32px;
+    padding: var(--spacing-0400) 4em 5em 4em;
+    border-radius: 0 0 32px 32px;
   }
 
   h2 {
@@ -73,5 +68,13 @@
   .comment {
     font: var(--font-preset-5-m);
     color: hsl(var(--navy-200-color));
+  }
+
+  @media (min-width: 43.75em) {
+    section {
+      border-radius: 32px;
+      padding: 5em 4em;
+      max-width: 368px;
+    }
   }
 </style>
