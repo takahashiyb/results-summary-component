@@ -20,8 +20,9 @@
 
 <style scoped>
   .single-score-form {
-    display: flex;
-    width: 250px;
+    display: grid;
+    grid-template-columns: max-content auto max-content;
+
     gap: var(--spacing-0200);
 
     padding: var(--spacing-0200);
@@ -34,10 +35,23 @@
     color: hsl(var(--red-400-color));
   }
 
+  .memory {
+    background-color: hsl(var(--yellow-050-color));
+    color: hsl(var(--yellow-800-color));
+  }
+
+  .verbal {
+    background-color: hsl(var(--green-050-color));
+    color: hsl(var(--green-500-color));
+  }
+
+  .visual {
+    background-color: hsl(var(--blue-050-color));
+    color: hsl(var(--blue-800-color));
+  }
+
   .category {
     font: var(--font-preset-5-m);
-
-    flex: 1;
   }
 
   .actual {
