@@ -11,7 +11,7 @@
 <template>
   <div :class="['single-score-form', `${items.category.toLowerCase()}`]">
     <div class="container__img">
-      <img :src="`../.${items.icon}`" />
+      <img :src="`${items.icon}`" />
     </div>
     <p class="category">{{ items.category }}</p>
     <p class="actual">{{ items.score }} <span class="total"> / 100</span></p>
