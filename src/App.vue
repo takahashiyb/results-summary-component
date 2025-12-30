@@ -37,7 +37,7 @@
 
     margin-inline: auto;
 
-    border-radius: 32px;
+    border-radius: 32px;  
 
     box-shadow: 20px 20px 15px hsl(var(--blue-050-color));
 

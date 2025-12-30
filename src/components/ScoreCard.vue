@@ -25,7 +25,7 @@
     place-items: center;
     background: linear-gradient(var(--gradient-2));
     text-align: center;
-    padding: var(--spacing-0400) 4em 5em 4em;
+    padding: var(--spacing-0400) 3em 5em 3em;
     border-radius: 0 0 32px 32px;
   }
 
