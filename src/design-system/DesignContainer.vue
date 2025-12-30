@@ -73,11 +73,14 @@
 
 <style scoped>
   div {
+    display: grid;
+
     padding-inline: 10em;
   }
 
   h1 {
     text-transform: capitalize;
     padding-top: 72px;
+    padding-bottom: 72px;
   }
 </style>
